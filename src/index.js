@@ -27,3 +27,19 @@ $(document).ready(function() {
     }
   });
 });
+
+// promise.then(function(response) {
+//   const body = JSON.parse(response);
+//   $('.showHumidity').text(`The humidity in ${city} is ${body.main.humidity}%`);
+//   $('.showTemp').text(`The temperature in Fahrenheit is ${((((body.main.temp)-273.15)*9/5)+32).toFixed(0)} degrees.`);
+//   $('.showErrors').text("");
+// }, function(error) {
+//   $('.showErrors').text(`There was an error processing your request: ${error}`);
+//   $('.showHumidity').text("");
+//   $('.showTemp').text("");
+// });
+// });
+// });
+
+// //(0K − 273.15) × 9/5 + 32
+// // 0K = 0degrees Kelvin
